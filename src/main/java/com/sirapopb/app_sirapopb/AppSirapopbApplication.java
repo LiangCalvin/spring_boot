@@ -15,7 +15,7 @@ public class AppSirapopbApplication {
 	@Bean
 	public CommandLineRunner commandLineRunner(String[] args){
 		return runner->{
-			System.out.println("Hello");
+			System.out.println("Hi");
 		};
 	}
 
